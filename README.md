@@ -76,4 +76,4 @@ This app is designed to be deployed on platforms like [Vercel](https://vercel.co
 
 **Helen Kilolo**  
 Full-Stack Developer | Nairobi, Kenya  
-[GitHub](https://github.com/helenkilolo) | [LinkedIn]([https://www.linkedin.com/in/helen-kilolo-8b7a6352/])
+[GitHub](https://github.com/helenkilolo) | [LinkedIn](https://www.linkedin.com/in/helen-kilolo-8b7a6352)
