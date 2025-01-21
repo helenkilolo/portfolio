@@ -46,7 +46,7 @@ app.get('/projects', (req, res) => {
       description: "A salon management system with real-time booking, stylist preferences, and integrated payments.",
       technologies: ["Python", "Node.js", "MongoDB", "AWS"],
       liveDemo: "https://www.youtube.com/watch?v=NsxKf9_MZrE",
-      github: "https://github.com/helenkilolo/salon-savvy"
+      github: "https://github.com/helenkilolo/salonsavvyKe_salon"
     },
     {
       id: 4,
