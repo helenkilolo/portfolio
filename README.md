@@ -1,79 +1,51 @@
- # Frontend - Portfolio Project
+# Portfolio Project
 
-This is the frontend of the Portfolio Project, built with React and styled using Tailwind CSS. It is designed to be a responsive, interactive, and user-friendly platform to showcase your skills, projects, and contact information.
+This is a full-stack portfolio project designed to showcase skills, projects, and personal branding. It includes a React-based frontend and an Express.js backend with email functionality.
 
 ---
 
-## Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts
-
-In the project directory, you can run:
-
-#### `npm start`
-Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
-The page will reload if you make edits. You may also see any lint errors in the console.
-
-#### `npm test`
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#### `npm run build`
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.  
-The build is minified and the filenames include the hashes. Your app is ready to be deployed!  
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `npm run eject`
-**Note: This is a one-way operation. Once you eject, you can't go back!**  
-Ejecting allows you to fully control the project configuration, including Webpack, Babel, and ESLint.  
+- **Frontend**: Interactive React app with Tailwind CSS for responsive design.
+- **Backend**: RESTful API built with Express.js for handling form submissions and email notifications.
+- **Dynamic Theming**: Light and dark modes implemented using context.
+- **Interactive Elements**: Includes animations, particle effects, and 3D objects.
 
 ---
 
 ## Project Structure
 
-- **`public/`**: Contains static assets like `favicon.ico`, `index.html`, and images.
-- **`src/`**: Contains React components, pages, styles, and utility files.
-  - `components/`: Reusable UI components.
-  - `pages/`: Page components like Home, About, Projects, Contact, and CV.
-  - `context/`: Contains the ThemeContext for light/dark mode.
-  - `App.js`: Main application component.
-  - `index.js`: Entry point for rendering the React app.
+portfolio-server/ ├── frontend/ │ ├── public/ # Static assets (favicon, images, etc.) │ ├── src/ # React components and pages │ ├── package.json # Frontend dependencies │ └── ... # Other CRA files ├── routes/ # Express.js API routes │ ├── contactRoutes.js # Email functionality routes ├── server.js # Backend entry point ├── package.json # Backend dependencies ├── .gitignore # Files to ignore in Git └── README.md # Documentation
+
 
 ---
 
-## Key Features
+## Technologies Used
 
-- **Dynamic Theming**: Light and dark modes powered by context.
-- **Interactive Animations**: Includes particle backgrounds, 3D effects, and smooth transitions.
-- **Responsive Design**: Tailored for devices of all sizes using Tailwind CSS.
-- **Custom Cursor**: Interactive circular cursor for an enhanced user experience.
+### Frontend
+- React
+- Tailwind CSS
+- Framer Motion
+- React Three Fiber (3D animations)
+- TSParticles (Particle animations)
 
----
-
-## Learn More
-
-- [React Documentation](https://reactjs.org/)
-- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-
----
-
-## Deployment
-
-This app is designed to be deployed on platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or any static hosting provider.
-
-1. Build the app using `npm run build`.
-2. Deploy the `build` folder to your hosting platform.
+### Backend
+- Node.js
+- Express.js
+- Nodemailer (Email functionality)
 
 ---
 
-## Author
+## Getting Started
 
-**Helen Kilolo**  
-Full-Stack Developer | Nairobi, Kenya  
-[GitHub](https://github.com/helenkilolo) | [LinkedIn](https://www.linkedin.com/in/helen-kilolo-8b7a6352)
+### Prerequisites
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+- A GitHub account for version control.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/helenkilolo/portfolio.git
+   cd portfolio-server
